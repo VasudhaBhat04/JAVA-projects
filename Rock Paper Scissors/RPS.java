@@ -1,3 +1,5 @@
+//Rock-Paper-Scissors game 
+
 import java.util.Random;
 import java.util.Scanner;
 
