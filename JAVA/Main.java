@@ -3,10 +3,10 @@ import java.util.Random;
 public class Main {
         public static void main(String[] args){
 
-           /* System.out.println("Hello World!!"); // Println for new line or can add "\n"
+            System.out.println("Hello World!!"); // Println for new line or can add "\n"
             System.out.print("Hi everyone\n"); // This is a comment
             System.out.println("How are you??"); //sout + tab
-         Variable = a reusable container for a value
+         /* Variable = a reusable container for a value
                       a variable behaves as if it was the value it contains
                       Primitive --> simple value stored directly in memory(stack) int,double,char,boolean
                       Reference --> memory address(stack) that points to heap   string,array,object
@@ -15,7 +15,7 @@ public class Main {
          2.assignment
 
          */
-         /*String S = "Engineering student";
+         String S = "Engineering student";
          int year = 2025 ;
          double gpa=3.79;
          char grade ='A';
@@ -31,7 +31,7 @@ public class Main {
         //User input import scanner
         //Scanner scanner_object_name = new Scanner(System.in);
 
-         Scanner scanner = new Scanner(System.in); //scanner object
+        Scanner scanner = new Scanner(System.in); //scanner object
 
         System.out.print("Enter your name: ");
         String name = scanner.nextLine(); //nextLine reads string with space while .next() doesn't
@@ -138,14 +138,14 @@ public class Main {
        %c: for characters   
        %b: for booleans
        %t: for date/time formatting (requires additional time-related specifier*/
-         String S = "Engineering student";
-         int year = 2025 ;
-         double gpa=3.793456;
-         char grade ='A';
+         String S1 = "Engineering student";
+         int year1 = 2025 ;
+         double gpa1=3.793456;
+         char grade1 ='A';
          boolean isEmployed = false;
 
 
-        System.out.printf("Hi i am a  %s  of batch  %d , my gpa is  %.2f  with  %c  grade and Employement status:%b %n",S,year,gpa,grade,isEmployed);
+        System.out.printf("Hi i am a  %s  of batch  %d , my gpa is  %.2f  with  %c  grade and Employement status:%b %n",S1,year1,gpa1,grade1,isEmployed);
         
     /*flags before specifiers you add it
 
