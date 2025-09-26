@@ -92,9 +92,36 @@ public class Main {
        System.out.println("You're a baby <3");
       } else
       System.out.println("You're a child !");
-    
-      scanner.close(); 
-    
+     
+      scanner.close();
+
+    //while-loop
+        int i = 0;
+
+        while (i < 10) {
+            i++;
+
+            // skip even numbers
+            if (i % 2 == 0) {
+                continue;  // go back to the loop condition
+            }
+
+            // stop the loop completely when i reaches 7
+            if (i == 7) {
+                break;  // exit the loop entirely
+            }
+
+            System.out.println("i = " + i);
+        }
+
+        System.out.println("Loop ended.");
+
+     //for loop = execute some code a certain amount of times
+    // for(counter;condition;step=increment/decrement)
+       for(int j = 0; j < 10; j += 3){
+         System.out.println("j = "+j);
+       }
+  
      //Random object - import Random from utils at top of your code
      //Random random_object_name = new Random();
         
