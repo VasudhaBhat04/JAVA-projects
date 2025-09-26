@@ -4,7 +4,7 @@ public class Maintwo {
     public static void main(String []args){
      
         //String methods 
-        /*String name = "Java course";
+        String name = "Java course";
         String name2 = "Python course";
 
         System.out.println(name.length());
@@ -59,11 +59,11 @@ public class Maintwo {
                 default -> System.out.println("Not a day"); 
 
          }
-         s.close();*/
+         s.close();
 
         //Arrays
 
-        /*int[] a ={100,200,300,400,500,600,700,800,900,1000};
+        int[] a ={100,200,300,400,500,600,700,800,900,1000};
         a[3] = 9000;
         System.out.println(a[3]);
         System.out.println(a.length);
@@ -76,15 +76,15 @@ public class Maintwo {
         
         System.out.println(flower[3]);
         System.out.println(flower.length);
-        //Arrays.sort(flower);//sorts
-        //System.out.println(Arrays.toString(flower)); // Returns a string representation of a 1D array.Arrays.deepToString() for multiD arrays\
+        Arrays.sort(flower);//sorts
+        System.out.println(Arrays.toString(flower)); // Returns a string representation of a 1D array.Arrays.deepToString() for multiD arrays\
 
         
-        //Arrays.fill(flower,"Marigolds"); //fills array elements with Marigolds
-        //System.out.println(Arrays.toString(flower));
+        Arrays.fill(flower,"Marigolds"); //fills array elements with Marigolds
+        System.out.println(Arrays.toString(flower));
 
-        // Arrays.fill(flower, 2, 4, "Marigold"); //[Rose, Lillies, Marigold, Marigold, Diasies, Hibiscus]
-        // System.out.println(Arrays.toString(flower));
+        Arrays.fill(flower, 2, 4, "Marigold"); //[Rose, Lillies, Marigold, Marigold, Diasies, Hibiscus]
+        System.out.println(Arrays.toString(flower));
 
         //Taking user input for array(static memory)
        Scanner sc = new Scanner(System.in);
@@ -152,13 +152,7 @@ public class Maintwo {
 
         // If element not found
         int notFound = Arrays.binarySearch(searchArray, 4);
-        System.out.println("Index of 4 in searchArray (not found): " + notFound);*/
-
-      
-
-
-        
-
+        System.out.println("Index of 4 in searchArray (not found): " + notFound);
 
     }
 }
