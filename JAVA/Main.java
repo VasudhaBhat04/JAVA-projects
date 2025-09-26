@@ -42,7 +42,7 @@ public class Main {
         System.out.print("Enter your height: "); 
         double height = scanner.nextDouble(); //.nextDouble reads double
         
-        System.out.print("Are you a student? "); 
+        System.out.print("Are you a student?(True/False): "); 
         boolean isStudent = scanner.nextBoolean(); //.for boolean variables
         
         System.out.println("Hello " +name);
@@ -74,27 +74,26 @@ public class Main {
     
        System.out.println("You got " +flower+ " " +color+ " coloured flowers!!");
     
-       scanner.close(); //Close your scanner object 
+      //Close your scanner object 
 
       //if - statements = performs a block of code if its condition is true 
       
-      Scanner s = new Scanner(System.in);
-
+     
       System.out.print("Enter your age: "); 
-      int age = s.nextInt();
+      int age1 = scanner.nextInt();
 
-      if (age>=65){
+      if (age1>=65){
         System.out.println("You're a senior!");
-      }else if (age>=18){
+      }else if (age1>=18){
         System.out.println("You're an adult!");
-      } else if (age < 0){
+      } else if (age1 < 0){
         System.out.println("You haven't been born yet!");
-      }else if(age == 0){
+      }else if(age1 == 0){
        System.out.println("You're a baby <3");
       } else
       System.out.println("You're a child !");
     
-      s.close(); 
+      scanner.close(); 
     
      //Random object - import Random from utils at top of your code
      //Random random_object_name = new Random();
@@ -128,7 +127,7 @@ public class Main {
     System.out.println(Math.multiplyExact(99,100));
     double a = 5, b = 3, c;
     c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
-    System.out.println(Math.ceil(c)); */
+    System.out.println(Math.ceil(c)); 
      
     // printf() in JAVA used to formatted output
     /* Format Specifiers: These begin with a percent sign (%) and are followed by characters that indicate the data type and desired formatting. Common specifiers include:
@@ -168,10 +167,7 @@ public class Main {
           (36000.230)
          */
 
-
-
-   
-
+} }
 // This is a comment
 /* This
     is
@@ -179,4 +175,3 @@ public class Main {
     multi-line
     comment
  */
-} }
