@@ -56,9 +56,8 @@ public class Maintwo {
                 case "Wednesday" -> System.out.println("It is a weekday");
                 case "Thursday" -> System.out.println("It is a weekday");
                 case "Friday" -> System.out.println("It is a weekday");
-                case "Saturday" -> System.out.println("It is a weekend");
-                case "Sunday" -> System.out.println("It is a weekend");
-                default -> System.out.println("Not a day");
+                case "Saturday", "Sunday" -> System.out.println("It is a weekend"); //can separte same cases with comma
+                default -> System.out.println("Not a day"); 
          }
          s.close();
 
