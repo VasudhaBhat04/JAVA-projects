@@ -65,22 +65,5 @@ public class Operators {
         int max = (a > b) ? a : b;
         System.out.println("Max of a and b = " + max);
 
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

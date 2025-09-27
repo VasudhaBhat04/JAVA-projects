@@ -16,7 +16,7 @@ public class Mainthree {
     //int x = 1;
     //System.out.println(x);//LOCAL VARIBALE 
     dosomething();
-    System.out.println(adde(1,2,3,4,6));
+    System.out.println(adde(1,2,3,4,6,26)); //Varying arguments
     
     }
     //method definition
