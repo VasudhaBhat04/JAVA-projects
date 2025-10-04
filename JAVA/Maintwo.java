@@ -22,6 +22,7 @@ public class Maintwo {
         System.out.println(name.compareTo("Java course")); //lelexicographical comparision
         System.out.println(name.toCharArray());
         System.out.println(name.startsWith("Java"));//This method returns true if string starts with this prefix.
+        System.out.println(name.endsWith("Java"));//False
         System.out.println(name2.concat(" 2025"));
        
         //.substring() = A method used to extract a protion of substring
@@ -60,6 +61,21 @@ public class Maintwo {
 
          }
          s.close();
+
+        //String builder
+        StringBuilder sb = new StringBuilder("Hello");
+        sb.append(" World");
+        System.out.println(sb); // Hello World
+
+        sb.insert(5, " Java");
+        System.out.println(sb); // Hello Java World
+
+        sb.delete(5, 10);
+        System.out.println(sb); // Hello World
+
+        sb.reverse();
+        System.out.println(sb); // dlroW olleH
+
 
         //Arrays
 

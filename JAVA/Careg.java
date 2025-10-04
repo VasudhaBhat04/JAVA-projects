@@ -45,7 +45,7 @@ public class Careg{
      Car c1 = new Car("BMW","Blue");
      
      
-     Car[] cars = {c1,new Car("Mustang","Red")};  //Array of objects
+     Car[] cars = {c1,new Car("Mustang","Red")};  //Array of objects either use objects or anonymus objects within array
 
      for(Car c : cars){
       c.drive();
