@@ -140,18 +140,17 @@ public class Main {
     System.out.println("Tails !!");
 
     //Math class (caps M) Math
-    System.out.println(Math.PI);
+    System.out.println(Math.PI); //Prints pi
     System.out.println(Math.pow(2,3)); //.pow is for double .powExact is for int
-    System.out.println(Math.E);
-    System.out.println(Math.abs(-5));
-    System.out.println(Math.abs(-5));
-    System.out.println(Math.round(1.234));
+    System.out.println(Math.E); //Euler's constant
+    System.out.println(Math.abs(-5)); //Absolute value -> positive
+    System.out.println(Math.round(1.234)); //nearest long
     System.out.println(Math.sqrt(625));
     System.out.println(Math.ceil(3.14)); //round up
     System.out.println(Math.floor(3.14)); //round down
     System.out.println(Math.max(99,100));
     System.out.println(Math.min(99,100));
-    System.out.println(Math.multiplyExact(99,100));
+    System.out.println(Math.multiplyExact(99,100));//9900
     double a = 5, b = 3, c;
     c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
     System.out.println(Math.ceil(c)); 
