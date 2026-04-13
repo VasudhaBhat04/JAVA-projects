@@ -1,0 +1,5 @@
+JVM,JRE & JDK
+
+Java Development Kit --> provides tools & libraries to develop Java applications (Platform dependent)
+Java Runtime Environment --> offers the libraries & JVM needed to run Java programs (Platform dependent)
+Java Virtual Machine --> executes the compiled java bytecode on system. (OS Specific but bytecode is platform independent). Write once , Run anywhere .
