@@ -143,6 +143,7 @@ public class Main {
     System.out.println(Math.PI); //Prints pi
     System.out.println(Math.pow(2,3)); //.pow is for double .powExact is for int
     System.out.println(Math.E); //Euler's constant
+    System.out.println(Math.random(12,18));
     System.out.println(Math.abs(-5)); //Absolute value -> positive
     System.out.println(Math.round(1.234)); //nearest long
     System.out.println(Math.sqrt(625));
