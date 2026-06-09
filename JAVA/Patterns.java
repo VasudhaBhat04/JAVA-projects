@@ -52,14 +52,14 @@ public class Patterns {
               } System.out.println("");
         }
        // Half pyramid (NUMBERS)
-       int n = 5, m=5;
+       
         for(int i = 1;i<=n;i++){
                   for(int j = 1;j<=i;j++){
                    System.out.print(j+" "); 
               } System.out.println("");
         }
         //Inverted half pyramid numbers 
-         int n = 5, m=5;
+        
         for(int i = n;i>=1;i--){
                   for(int j = 1;j<=i;j++){
                    System.out.print(j+" "); 
@@ -67,7 +67,7 @@ public class Patterns {
 }
     
        // floyd's triangle
-       int n = 5, m=5;
+       
         int count = 1;
         for(int i = 1;i<=n;i++){
                   for(int j = 1;j<=i;j++){
@@ -77,7 +77,7 @@ public class Patterns {
         }
         
        // 0-1 triangle
-       int n = 5, m=5;
+       
         for(int i = 1;i<=n;i++){
                   for(int j = 1;j<=i;j++){
                       if ((i+j)%2 == 0)
@@ -87,7 +87,7 @@ public class Patterns {
               } System.out.println("");
         }
        //Butterfly pattern
-       int n = 4, m=5;
+       
         //first half
         for(int i = 1;i<=n;i++){
                   for(int j = 1;j<=i;j++){
@@ -117,7 +117,7 @@ public class Patterns {
                System.out.println("");
         }
        //Solid rhombus
-       int n = 4, m=5;
+       
         for(int i = 1;i<=n;i++){
                    for(int j = 1;j<=n-i;j++){
                    System.out.print(" "); //For loop --> spaces
@@ -125,15 +125,15 @@ public class Patterns {
               for(int j = 1;j<=n;j++){
                    System.out.print("*");  
                    //For hollow rhombus
-                    if(i==1||i==n||j==1||j==n)
-                   System.out.print("*"); 
-                   else
-                   System.out.print(" ");
+                    //if(i==1||i==n||j==1||j==n)
+                   //System.out.print("*"); 
+                   //else
+                   //System.out.print(" ");
                   }
                System.out.println("");
         }
        //Hollow butterfly
-       int n = 6;
+       
        for(int i = 1;i<=n;i++){
                   for(int j = 1;j<=i;j++){
                    if(j==1||j==i)
@@ -175,7 +175,7 @@ public class Patterns {
                System.out.println("");
         }
        // Number pyramid 
-        int n = 5;
+        
         for(int i = 1;i<=n;i++){
                    for(int j = 1;j<=n-i;j++){
                    System.out.print(" "); 
@@ -186,7 +186,7 @@ public class Patterns {
                System.out.println("");
         }
        // Plaindromic pattern triangle
-       int n = 5;
+       
         for(int i = 1;i<=n;i++){
                    for(int j = 1;j<=n-i;j++){
                    System.out.print(" ");  
@@ -201,7 +201,7 @@ public class Patterns {
                System.out.println("");
         }
        // Diamond pattern
-       int n = 5;
+       
         for(int i = 1;i<=n;i++){
                    for(int j = 1;j<=n-i;j++){
                    System.out.print(" ");  
