@@ -74,12 +74,12 @@ class SinglyLinkedList {
 
     // Reverse the linked list
     public void reverse() {
-        LinkedList prev = null, curr = head, next = null;
+        LinkedList prev = null, curr = head, tnext = null;
         while (curr != null) {
-            next = curr.next;
+            tnext = curr.next;
             curr.next = prev;
             prev = curr;
-            curr = next;
+            curr = tnext;
         }
         head = prev;
     }
